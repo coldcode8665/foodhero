@@ -1,0 +1,48 @@
+.showcaseBg {
+    height: 85vh;
+    width:99%;
+    background-image: url("../public/image/bg.png");
+    background-size: 100% 110vh;
+}
+
+.showcaseContainer {
+    width:40%;
+    margin:0;
+}
+.showcaseText {
+    font-size: 3rem;
+    font-weight: bolder;
+    color:white;
+    font-family: proxima-nova,sans-serif;
+    line-height: 3.5rem;
+    padding:1.5rem 0;
+}
+
+.showcaseSubText {
+    color:white;
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+.showcaseDevice {
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    width:85%;
+}
+
+.android {
+    transition: all .5s;
+}
+.android:hover{
+    transform: scale(1.2,1.2);
+}
+.ios {
+    transition: all .5s;
+}
+.ios:hover{
+    transform: scale(1.2,1.2);
+}
+.showcaseDeviceText {
+    font-weight:bolder;
+    word-spacing: 0.1rem}

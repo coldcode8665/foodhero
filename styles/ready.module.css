@@ -1,0 +1,58 @@
+.ready {
+    background-color: #4230DD;
+    z-index: -1;
+}
+.readyContainer {
+    display:flex;
+    justify-content: space-around;
+    width:80%;
+    margin:0 auto;
+    align-content: center;
+    z-index: 2; 
+    position: relative;
+    top: 8rem;
+}
+.readyShowcaseContainer {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.showcaseDevice {
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    width:50%;
+}
+.android {
+    transition: all .5s;
+}
+.android:hover{
+    transform: scale(1.2,1.2);
+}
+.ios {
+    transition: all .5s;
+}
+.ios:hover{
+    transform: scale(1.2,1.2);
+}
+
+.readyShowcase {
+    font-size: 3rem;
+    font-weight:bold;
+    text-align: left;
+    line-height: 4rem;
+    color:white;
+    margin: 1rem 0;
+}
+.readyTitle {
+    color: #9AE5E0;
+    font-weight:bold;
+    font-size: 1.5rem;
+}
+.readyImg {
+    z-index: -5;
+    position: relative;
+    top:2rem;
+}

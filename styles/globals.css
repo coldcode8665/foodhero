@@ -1,0 +1,28 @@
+@font-face {
+    src: url("../public/icons/Proxima\ Nova\ Font.otf");
+    font-family: proxima-nova;
+}
+@import url("./font/css/all.css");
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: proxima-nova,sans-serif;
+}
+body {
+    background-color: #4230DD;
+}
+.container {
+    width:80%;
+    margin:0 auto;
+}
+
+a {
+    color:white;
+    text-decoration:none;
+    font-weight: bolder;
+}
+
+li {
+    list-style-type:none;
+}

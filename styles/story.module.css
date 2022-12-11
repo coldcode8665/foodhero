@@ -1,0 +1,110 @@
+.content {
+    background-color:#f9f9fc;
+    /* height: 550vh; */
+}
+.showCase {
+    background-image: url("../public/image/hero-wave.png");
+    background-size:100vw 100vh;
+    background-position: 0 100%;
+    background-repeat: no-repeat;
+    height:50vh;
+}.showcaseContent{
+    margin:2rem 0;
+}
+.showcaseContent h2 {
+    color:white;
+    font-weight:bold;
+    font-size:3rem;
+    width:35%;
+    text-align: left;
+}
+.showcaseContent a {
+    display:block;
+    color:#E0EDFB;
+    margin:2rem 0;
+    font-size:1.2rem;
+}
+
+.subShowcase {
+    height: 50vh;
+    background-image:url("../public/image/food-floating.png");
+    background-size:100% 100%;
+    width:90%;
+    margin:0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.subShowcase div {
+    width:50%;
+    text-align: center;
+    line-height:2rem;
+    font-size:1.3rem;
+    color:gray;
+}
+.subShowcase a {
+    color: #272595;
+    margin:2rem;
+}
+.mainSection {
+    /* height:250vh; */
+    background-color: white;
+    width:90vw;
+    margin:0 auto;
+}
+.story {
+    /* height:194vh; */
+    border:10px solid darkblue;
+    border-bottom:0;
+    width:80%;
+    margin:0 3rem;
+    display:flex;
+    flex-direction:column;
+}
+.storyContainer {
+    display:flex;
+    border-bottom:10px solid darkblue;
+}
+.storyContent {
+    width: 60%;
+    /* border-right:10px solid darkblue; */
+    padding:4rem;
+    line-height:1.5rem;
+    color:gray;
+    font-size:large;
+}
+.storyContent h1 {
+    margin:1.5rem 0;
+    color:black;
+}
+.storyImg {
+    width:40%;
+}
+.storyImg:nth-child(0){
+    border-left: 10px solid darkblue ;
+}
+.storyImg:nth-child(1){
+    border-right: 10px solid darkblue ;
+}
+.storyImg:nth-child(2){
+    border-left: 10px solid darkblue ;
+}
+.storyImg:nth-child(3){
+    border-right: 10px solid darkblue ;
+}
+.storyImg .storyImage {
+    height:100%;
+    width:100%;
+}
+.helpText {
+    font-weight:bold;
+    font-size: 2rem;
+    width:50%;
+    margin:5rem auto;
+    text-align: center;
+}
+
+.footerSection {
+    background-color: #4230DD;
+}

@@ -1,0 +1,22 @@
+
+
+.commentCard {
+    height:60%;
+    box-shadow: 1px 1px 10px lightgray;
+    border-radius: 10px;
+    padding: 3rem 2rem;
+    margin:3rem;
+}
+.quotation {
+    display: block;
+}
+
+.commentCardText {
+    font-size:1rem;
+    font-family: proxima-nova,sans-serif;
+    line-height: 1.5rem;
+}
+.commentCardUser {
+    margin: 2rem 0;
+    color: darkblue;
+}

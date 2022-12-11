@@ -1,0 +1,99 @@
+.footer {
+    background-image: url('../public/image/flowingSVG.png');
+    height:150%;
+    background-repeat: no-repeat;
+    padding-top:9.5rem;
+    z-index: 10;
+    position: relative; 
+}
+.footerContent {
+    z-index: 10;
+    background-color: #06022A;
+    height:150%;
+    padding:5rem 0 ;
+    overflow: hidden;
+    
+}
+
+.follow {
+    display:block;
+    text-align: right;
+    color:white;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight:bold;
+    width:93%;
+}
+.follow:hover {
+    color:navy;
+    font-weight: bold;
+}
+.people {
+    display:flex;
+    justify-content: space-evenly;
+    margin: 3rem auto;
+    width:90%;
+
+}
+
+.footerData {
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+    height: 60vh;
+}
+
+.nearYou {
+    background-image: url('../public/image/footerSVG.svg');
+    background-size: 100% 100%;
+    background-repeat:  no-repeat;
+    flex-basis: 35%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.nearYou p {
+    color:white;
+    font-size: 2rem;
+    font-weight:bold;
+    width: 70%;
+
+
+}
+
+.nearYou div {
+    display: block;
+    width:70%;
+    margin-top:2rem;
+}
+
+.social i {
+    font-size:2rem;
+    text-align: left;
+    margin-right:2rem;
+    color:#9AE5E0;
+}
+
+.footerInfo {
+    display:flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top:6rem;
+    color:white;
+    flex-basis:70%;
+}
+.footerInfo li {
+    font-size: 1.0rem;
+    font-weight: bolder;
+    line-height: 4rem;
+    text-transform: uppercase;
+}
+.copyRight {
+    color:#527BAE;
+    text-align:right;
+    position: relative;
+    top:-20%;
+    right:5rem;
+}
