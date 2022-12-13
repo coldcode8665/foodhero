@@ -119,6 +119,7 @@
     }
     .footerInfo {
         display:flex;
+        flex-wrap: wrap;
         justify-content: space-around;
         align-items: flex-start;
         margin-top:6rem;
