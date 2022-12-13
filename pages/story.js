@@ -62,7 +62,7 @@ const Story = () => {
                         <div className={Style.storyContent}>
                             <p>in fact, when food gets thrown out, it usually ends up in a landfill, gets covered by other garbage 
                                 and rots. When this happens, the food doesn't have oxygen and the decomposition process produces
-                                 methane gas. The statistic that eventually created Flashfood is:
+                                 methane gas. The statistic that eventually created FoodHero is:
 
                                 'If International food waste were a country, it would be the third leading cause to
                                  GHG emissions behind the US & China'.</p>
@@ -80,7 +80,7 @@ const Story = () => {
                                 to learn that most food items that were not sold and approaching their best before dates by up to 2 weeks, were simply
                                  thrown out!
 
-                                This is when the idea of Flashfood app was solidified. An app that allows shoppers to browse 
+                                This is when the idea of FoodHero app was solidified. An app that allows shoppers to browse 
                                 food items approaching their best before 
                                 date, buy them at a discount and pick them up in store.</p>
                         </div>
@@ -89,7 +89,7 @@ const Story = () => {
                 </div>
                 <div class="container">
                 <p className={Style.helpText}>We’ve helped thousands of people save money on their groceries</p>
-                <CommentCard text="Another day and another box of fruit bought off the Flashfood app! I love using this app and keeping perfectly good food from going into the landfill. All of the food posted on the app i
+                <CommentCard text="Another day and another box of fruit bought off the FoodHero app! I love using this app and keeping perfectly good food from going into the landfill. All of the food posted on the app i
                    s reaching its best before date but still perfectly good to eat. A
                    nd it was only $5.00! 😊"  user="@ACELIACSTRAVELS FROM AIRDRIE, ALBERTA"/>
                 </div>
