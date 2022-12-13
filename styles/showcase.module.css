@@ -26,19 +26,21 @@
 
 .showcaseDevice {
     display: flex;
-    align-items:center;
-    justify-content: space-between;
-    width:380px;
+    justify-content: flex-start;
+    width:358px;
+    align-items: center;
 }
 
 .android {
     transition: all .5s;
+    margin:1px;
 }
 .android:hover{
     transform: scale(1.2,1.2);
 }
 .ios {
     transition: all .5s;
+    margin:1px;
 }
 .ios:hover{
     transform: scale(1.2,1.2);
@@ -69,8 +71,7 @@
     .showcaseDevice {
         display: flex;
         flex-wrap: wrap;
-        align-items:center;
-        justify-content: space-between;
-        width:355px;
+        justify-content: flex-start;
+        width: 336px;
     }
 }
