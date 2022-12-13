@@ -132,4 +132,14 @@
         top:-20%;
         right:1rem;
     }
+    /* .footerInfo li {
+        font-size: 1.0rem;
+        font-weight: bolder;
+        line-height: 4rem;
+        text-transform: uppercase;
+    } */
+
+    .footerData ul {
+        margin:15px;
+    }
 }
