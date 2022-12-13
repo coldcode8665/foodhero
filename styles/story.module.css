@@ -129,7 +129,6 @@
     }
     .subShowcase {
         height: 50vh;
-        background-image:url("../public/image/food-floating.png");
         background-color: white;
         background-size:100% 100%;
         width:100%;
@@ -153,15 +152,15 @@
     .mainSection {
         /* height:250vh; */
         background-color: white;
-        width:90vw;
+        width:100%;
         margin:0 auto;
     }
     .story {
         /* height:194vh; */
         border:5px solid darkblue;
         border-bottom:0;
-        width:80%;
-        margin:0 3rem;
+        width:100%;
+        margin:0;
         display:flex;
         flex-direction:column;
     }
