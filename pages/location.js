@@ -34,7 +34,7 @@ const Location = () => {
                 </div>
                 <div className={Style.map}>
                     <button>Show all locations</button>
-                <iframe src="https://www.map.com" title="W3Schools Free Online Web Tutorials"></iframe>
+                <iframe src="https://www.openstreetmap.org/#map=6/9.117/8.674" title="W3Schools Free Online Web Tutorials"></iframe>
                 </div>
             </div>
             <div className={Style.pusher}>

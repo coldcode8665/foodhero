@@ -10,11 +10,11 @@ let Footer = () => {
                 <div className='container'>
                     <a href="#" className={Style.follow}>Follow @FoodHeroINC</a>
                     <div className={Style.people}>
-                        <Image src="/image/buffalofooood.jpg" height="200" width="200"></Image>
-                        <Image src="/image/detroitfather.jpg" height="200" width="200"></Image>
-                        <Image src="/image/shoshana.jpg" height="200" width="200"></Image>
-                        <Image src="/image/thefunemployedfamily.jpg" height="200" width="200"></Image>
-                        <Image src="/image/undeniableannie.jpg" height="200" width="200"></Image>
+                        <Image src="/image/buffalofooood.jpg" height="200" width="200" className={Style.peopleImg}></Image>
+                        <Image src="/image/detroitfather.jpg" height="200" width="200" className={Style.peopleImg}></Image>
+                        <Image src="/image/shoshana.jpg" height="200" width="200" className={Style.peopleImg}></Image>
+                        <Image src="/image/thefunemployedfamily.jpg" height="200" width="200" className={Style.peopleImg}></Image>
+                        <Image src="/image/undeniableannie.jpg" height="200" width="200" className={Style.peopleImg}></Image>
                     </div>
 
                     <div className={Style.footerData}>

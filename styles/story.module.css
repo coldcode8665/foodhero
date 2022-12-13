@@ -8,7 +8,8 @@
     background-position: 0 100%;
     background-repeat: no-repeat;
     height:50vh;
-}.showcaseContent{
+}
+.showcaseContent{
     margin:2rem 0;
 }
 .showcaseContent h2 {
@@ -107,4 +108,105 @@
 
 .footerSection {
     background-color: #4230DD;
+}
+@media (max-width:992px){
+    .showCase {
+        background-image: url("../public/image/hero-wave.png");
+        background-size:200vw 100vh;
+        background-position: 50% 100%;
+        background-repeat: no-repeat;
+        height:50vh;
+    }
+    .showcaseContent{
+        margin:2rem 2rem;
+    }
+    .showcaseContent h2 {
+        color:white;
+        font-weight:bold;
+        font-size:2rem;
+        width:80%;
+        text-align: left;
+    }
+    .subShowcase {
+        height: 50vh;
+        background-image:url("../public/image/food-floating.png");
+        background-color: white;
+        background-size:100% 100%;
+        width:100%;
+        margin:10rem auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .subShowcase div {
+        width:50%;
+        text-align: center;
+        line-height:2rem;
+        font-size:1.3rem;
+        color:gray;
+    }
+    .subShowcase a {
+        color: #272595;
+        margin:2rem;
+    }
+    .mainSection {
+        /* height:250vh; */
+        background-color: white;
+        width:90vw;
+        margin:0 auto;
+    }
+    .story {
+        /* height:194vh; */
+        border:5px solid darkblue;
+        border-bottom:0;
+        width:80%;
+        margin:0 3rem;
+        display:flex;
+        flex-direction:column;
+    }
+    .storyContainer {
+        display:flex;
+        flex-direction: column-reverse;    /* .storyImg:nth-child(0){
+            border-top: 10px solid darkblue ;
+        }
+        .storyImg:nth-child(1){
+            border-bottom: 10px solid darkblue ;
+        }
+        .storyImg:nth-child(2){
+            border-top: 10px solid darkblue ;
+        }
+        .storyImg:nth-child(3){
+            border-bottom: 10px solid darkblue ;
+        } */
+        border-bottom:5px solid darkblue;
+    }
+    .storyContent {
+        width: 100%;
+        /* border-right:10px solid darkblue; */
+        padding:4rem;
+        line-height:1.5rem;
+        color:gray;
+        font-size:large;
+        border-bottom: 5px solid darkblue ;
+    }
+    .storyImg {
+        width:100%;
+        border-bottom: 5px solid darkblue ;
+    }
+    .storyImg:nth-child(0){
+        border-left: 1px solid darkblue  ;
+    }
+    .storyImg:nth-child(1){
+        border-right: 10px solid darkblue ;
+    }
+    .storyImg:nth-child(2){
+        border-left: 10px solid darkblue ;
+    }
+    .storyImg:nth-child(3){
+        border-right: 10px solid darkblue ;
+    }
+    .helpText{
+        width:100%;
+    }
 }

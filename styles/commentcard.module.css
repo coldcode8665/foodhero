@@ -1,7 +1,7 @@
 
 
 .commentCard {
-    height:60%;
+    /* height:60%; */
     box-shadow: 1px 1px 10px lightgray;
     border-radius: 10px;
     padding: 3rem 2rem;
@@ -19,4 +19,14 @@
 .commentCardUser {
     margin: 2rem 0;
     color: darkblue;
+}
+
+@media (max-width:991px){
+    .commentCard {
+        height:60%;
+        box-shadow: 1px 1px 10px lightgray;
+        border-radius: 10px;
+        padding: 3rem 2rem;
+        margin:0rem;
+    }
 }

@@ -28,7 +28,7 @@
     display: flex;
     align-items:center;
     justify-content: space-between;
-    width:85%;
+    width:380px;
 }
 
 .android {
@@ -46,3 +46,31 @@
 .showcaseDeviceText {
     font-weight:bolder;
     word-spacing: 0.1rem}
+
+@media (max-width:991px){
+    .showcaseBg {
+        height: 85vh;
+        width:100%;
+        background-image: url("../public/image/bg.png");
+        background-size: 200% 110vh;
+    }
+    .showcaseContainer {
+        width:100%;
+        margin-top:5rem;
+    }
+    .showcaseText {
+        font-size: 2rem;
+        font-weight: bolder;
+        color:white;
+        font-family: proxima-nova,sans-serif;
+        line-height: 3rem;
+        padding:1.5rem 0;
+    }
+    .showcaseDevice {
+        display: flex;
+        flex-wrap: wrap;
+        align-items:center;
+        justify-content: space-between;
+        width:355px;
+    }
+}

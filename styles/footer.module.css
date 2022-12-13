@@ -1,6 +1,6 @@
 .footer {
     background-image: url('../public/image/flowingSVG.png');
-    height:150%;
+    /* height:150%; */
     background-repeat: no-repeat;
     padding-top:9.5rem;
     z-index: 10;
@@ -40,7 +40,7 @@
     display:flex;
     justify-content: space-between;
     margin-bottom: 3rem;
-    height: 60vh;
+    /* height: 60vh; */
 }
 
 .nearYou {
@@ -96,4 +96,40 @@
     position: relative;
     top:-20%;
     right:5rem;
+}
+@media (max-width:991px){
+    .peopleImg {
+        height:20%;
+        width:20%;
+    }
+    .footerData {
+        flex-direction: column;
+        height: 150vh;
+    }
+    .nearYou {
+        background-image: url('../public/image/footerSVG.svg');
+        background-size: 100% 100%;
+        background-repeat:  no-repeat;
+        flex-basis: 100%;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height:70vh;
+    }
+    .footerInfo {
+        display:flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        margin-top:6rem;
+        color:white;
+        flex-basis:100%;
+    }
+    .copyRight {
+        color:#527BAE;
+        text-align:right;
+        position: relative;
+        top:-20%;
+        right:1rem;
+    }
 }

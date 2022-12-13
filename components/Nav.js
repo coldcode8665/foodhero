@@ -3,6 +3,7 @@ import Style from '../styles/nav.module.css';
 import Image from 'next/image'
 
 let Nav = () => {
+  
     return (
         <nav className={Style.nav} id="nav">
         <div className="container">
@@ -17,11 +18,32 @@ let Nav = () => {
               <li><a href="#">Partner</a></li>
               <li><a href="#" className={Style.downloadbtn} id="dbtn">Download</a></li>
             </ul>
+            <div className={Style.hidden}>
+              <a href="#" className={Style.downloadbtn} id="dbtn">Download</a>
+              <i class="fa fa-bars" id="dropdownBtn"></i>
+            </div>
+            
             <ul className={Style.dropdown} id="dropdown">
               <li><a href="/story">Our Story</a></li>
               <li><a href="/waste">Food waste</a></li>
               <li><a href="#">The Team</a></li>
               <li><a href="#">Press Room</a></li>
+            </ul>
+
+            <ul className={Style.dropdownHidden} id="dropdownHidden">
+              <li><a href="#">How it works</a></li>
+              <li><a href="/location">locations</a></li>
+              <li id="aboutHid"><a href="#">About <i className="fa fa-angle-down"></i></a></li>
+              <li id="aboutHidden" className={Style.aboutHidden}>
+                <ul>
+                  <li><a href="/story">Our Story</a></li>
+                  <li><a href="/waste">Food waste</a></li>
+                  <li><a href="#">The Team</a></li>
+                  <li><a href="#">Press Room</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Suport</a></li>
+              <li><a href="#">Partner</a></li>
             </ul>
           </div>
         </div>

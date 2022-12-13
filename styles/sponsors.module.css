@@ -4,11 +4,12 @@
     align-items: space-between;
     justify-content: space-between;
     width: 100%;
-    height:60vh;
+    /* height:60vh; */
     padding: 3rem 0;
     margin:0 auto;
     
 }
+
 .sponsorsContainer {
     background-color: #F9F9FC;
 }
@@ -63,7 +64,7 @@
 }
 
 .workCard {
-    height: 80vh;
+    /* height: 80vh; */
     width: 100%;
     border-radius: 20px;
     background-color:#F2F2FF;
@@ -103,7 +104,7 @@
 
  
  .workCard1 {
-     height: 50vh;
+     /* height: 50vh; */
      width: 100%;
      border-radius: 20px;
      background-color:#F2F2FF;
@@ -146,7 +147,7 @@
 
 
  .workCard2 {
-    height: 50vh;
+    /* height: 50vh; */
     width: 100%;
     border-radius: 20px;
     background-color:#F2F2FF;
@@ -188,4 +189,151 @@
     width:50%;
     margin:3rem auto;
     text-align: center;
+}
+
+@media (max-width:991px){
+    .sponsors {
+        display:flex;
+        flex-wrap: wrap;
+        align-items: space-between;
+        justify-content: space-between;
+        width: 100%;
+        /* height:60vh; */
+        padding: 3rem 0;
+        margin:0 auto;
+        
+    }
+
+    .img {
+        height:40%;
+        width:40%;
+    }
+
+    .work {
+        /* border:1px solid black; */
+        display:flex;
+        justify-content: space-around;
+        align-items: center;
+        padding:1.5rem 1.5rem;
+        color:gray;
+        width:100%;
+        margin: 0 auto;
+        border-radius: 20px;
+        box-shadow: -1px -1px 10px lightgray;
+    }
+    .workCard {
+        /* height: 80vh; */
+        width: 100%;
+        border-radius: 20px;
+        background-color:#F2F2FF;
+        display:flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-bottom: 6rem;
+        /* border:1px solid black; */
+    }
+    .workCardText{
+        /* margin:6rem 2rem; */
+        /* border:1px solid black; */
+        width:100%;
+    }
+    .workCardImg {
+        /* margin-right:2rem; */
+        width:100%;
+      }
+
+
+    .workCard1 {
+        /* height: 50vh; */
+        width: 100%;
+        border-radius: 20px;
+        background-color:#F2F2FF;
+        display:flex;
+        flex-direction: column;
+        /* justify-content: space-around; */
+        /* margin-bottom: 6rem; */
+        z-index: -20;
+        /* border:1px solid black; */
+    }
+    .workCardText1 {
+        /* margin:6rem 2rem; */
+        /* border:1px solid black; */
+        width:100%;
+    }
+    .workCarditem1 {
+        list-style: disc;
+        font-size: 1.1rem;
+        line-height: 2.5rem;
+        color:gray;
+        width:100%;
+    }
+    .workCardParagraph1 {
+        font-size: 1.9rem;
+        line-height: 2.5rem;
+        width:100%;
+        font-weight:bold;
+        margin-bottom: 2rem;
+    }
+    .workCardImg1 {
+      /* margin-right:2rem; */
+      width:100%;
+      /* transform: translateY(-20px); */
+      z-index: 1;
+    }
+    .workCardlink1 {
+        color:blue;
+    }
+
+
+
+    .workCard2 {
+        /* height: 50vh; */
+        width: 100%;
+        border-radius: 20px;
+        background-color:#F2F2FF;
+        display:flex;
+        flex-direction: column;
+        z-index: -20;
+        /* border:1px solid black; */
+    }
+    .workCardText2 {
+        /* margin:6rem 2rem; */
+        /* border:1px solid black; */
+        width:100%;
+    }
+    .workCarditem2 {
+        list-style: disc;
+        font-size: 1.1rem;
+        line-height: 2.5rem;
+        color:gray;
+        width:100%;
+    }
+    .workCardParagraph2 {
+        font-size: 1.9rem;
+        line-height: 2.5rem;
+        width:90%;
+        font-weight:bold;
+        margin-bottom: 2rem;
+    }
+    .workCardImg2 {
+      width:100%;
+      transform: translateX(0px);
+      /* position: relative; */
+    }
+    .helpText {
+        font-weight:bold;
+        font-size: 2rem;
+        width:100%;
+        margin:3rem auto;
+        text-align: center;
+    }
+    .workCardText1 p {
+        width:80%
+    }
+    .workCardText2 p {
+        width:80%
+    }
+
+   
+
 }

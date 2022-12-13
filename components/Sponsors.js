@@ -10,16 +10,16 @@ let Sponsors = () => {
             <div className={Style.subContainer}>
                 <div className="container">
                     <div className={Style.sponsors} id="sponsor">
-                        <Image src="/icons/sponsors/1.png" height="100" width="200"></Image>
-                        <Image src="/icons/sponsors/2.png" height="100" width="200"></Image>
-                        <Image src="/icons/sponsors/3.png" height="100" width="200"></Image>
-                        <Image src="/icons/sponsors/4.png" height="100" width="200"></Image>
-                        <Image src="/icons/sponsors/5.png" height="100" width="200"></Image>
-                        <Image src="/icons/sponsors/6.png" height="100" width="200"></Image>
-                        <Image src="/icons/sponsors/7.png" height="100" width="200"></Image>
-                        <Image src="/icons/sponsors/8.png" height="100" width="200"></Image>
-                        <Image src="/icons/sponsors/9.png" height="100" width="200"></Image>
-                        <Image src="/icons/sponsors/10.png" height="100" width="200"></Image>
+                        <Image src="/icons/sponsors/1.png" height="100" width="200" className={Style.img}></Image>
+                        <Image src="/icons/sponsors/2.png" height="100" width="200" className={Style.img}></Image>
+                        <Image src="/icons/sponsors/3.png" height="100" width="200" className={Style.img}></Image>
+                        <Image src="/icons/sponsors/4.png" height="100" width="200" className={Style.img}></Image>
+                        <Image src="/icons/sponsors/5.png" height="100" width="200" className={Style.img}></Image>
+                        <Image src="/icons/sponsors/6.png" height="100" width="200" className={Style.img}></Image>
+                        <Image src="/icons/sponsors/7.png" height="100" width="200" className={Style.img}></Image>
+                        <Image src="/icons/sponsors/8.png" height="100" width="200" className={Style.img}></Image>
+                        <Image src="/icons/sponsors/9.png" height="100" width="200" className={Style.img}></Image>
+                        <Image src="/icons/sponsors/10.png" height="100" width="200" className={Style.img}></Image>
                     </div>
 
                     <div className={Style.work} id="workwithus">

@@ -6,10 +6,14 @@
     font-weight:bolder;
     font-size:small;
     position:sticky;
+    width:100%;
     top:0;
     z-index: 20;
+    /* border:1px solid white; */
 }
-
+.nav .hidden {
+    display:none;
+}
 .logo{
     font-size:2rem;
     color:white;
@@ -20,8 +24,6 @@
     justify-content: space-between;
     align-items: center;
     height:15vh;
-
-
 }
 .menu {
     font-family:proxima-nova,sans-serif;
@@ -55,7 +57,7 @@
     transition: all 0.1s;
     position: absolute;
     top: 3vh;
-    left: 40vw;
+    left: 90%;
 }
 .expand {
     margin-top:.2rem;
@@ -64,15 +66,14 @@
 }
 .downloadbtn:hover {
     box-shadow: 0px 0px 1px #CAF4E0;
-    transform: translate(5px,5px);
-    
+    transform: translate(5px,5px);  
 }
 
 .dropdown {
     position: absolute;
     left:61%;
     top:55%;
-    height:27vh;
+    height:40vh;
     background-color: #4230DD;
     padding:0.5rem 1rem;
     border-bottom-left-radius: 10px;
@@ -91,6 +92,83 @@
 
 .dropdown a:hover {
     color:white;
+}
+
+
+.dropdownHidden {
+    display: none;
+    position: absolute;
+    left:61%;
+    top:55%;
+    height:27vh;
+    background-color: #4230DD;
+    padding:0.5rem 1rem;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.dropdownHidden li {
+    margin:2rem 0;
+    font-size: 14px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    word-spacing: .2rem;
+}
+.dropdownHidden a {
+    color:#9AE5E0;
+}
+
+.dropdownHidden a:hover {
+    color:white;
+}
+
+@media (max-width:991px){
+    .menu {
+        display:none;
+    }
+    .nav .hidden {
+        display: block;
+        display: flex;
+        justify-content: flex-end;
+        width:60%;
+        align-items: center;
+        height:50%;
+       /* border:1px solid white; */
+    }
+    .hidden i {
+        color:white;
+        display: block;
+        font-size:large;
+        text-align: right;
+    }
+    .downloadbtn {
+        padding: 1rem 2rem;
+        color:#4230DD !important;
+        box-shadow: 0px 0px 0px #4230DD;
+        position: static;
+        display: block;
+        margin-left: 40%;
+        margin-right:1rem;
+    }
+    .downloadbtn:hover {
+        box-shadow: 0px 0px 1px #CAF4E0;
+        transform: translate(0px,0px);  
+    }
+    .dropdownHidden {
+        display: none;
+        position: absolute;
+        left:52%;
+        top:85%;
+        width:200px;
+        height:70vh;
+        background-color: #4230DD;
+        padding:0.5rem 1rem;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+    .aboutHidden {
+        position: relative;
+        top:0rem;
+    }
 }
 
 

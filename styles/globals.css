@@ -11,6 +11,7 @@
 }
 body {
     background-color: #4230DD;
+    /* background-color: green; */
 }
 .container {
     width:80%;
@@ -25,4 +26,11 @@ a {
 
 li {
     list-style-type:none;
+}
+
+@media (max-width:991px){
+    .container {
+        width:90%;
+        margin:0 auto;
+    }
 }

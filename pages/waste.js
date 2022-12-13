@@ -7,6 +7,7 @@ import Image from "next/image"
 const Waste = () => {
     return(
         <section className={Style.waste}>
+
         <Nav />
             <div className={Style.hero}>
                 <div class="container">
