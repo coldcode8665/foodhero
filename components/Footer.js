@@ -28,26 +28,26 @@ let Footer = () => {
                         </div>
                         <div className={Style.footerInfo}>
                             <ul>
-                                <li>The Team</li>
-                                <li>Locations</li>
-                                <li>Our Story</li>
-                                <li>Food waste</li>
+                                <li><a href="#">The Team</a></li>
+                                <li><a href="#">Locations</a></li>
+                                <li><a href="#">Our Story</a></li>
+                                <li><a href="#">Food waste</a></li>
                             </ul>
                             <ul>
-                                <li>News</li>
-                                <li>Blog</li>
-                                <li>refer a friend</li>
+                                <li><a href="#">News</a></li>
+                                <li><a href="#">Blog</a></li>
+                                <li><a href="#">refer a friend</a></li>
                             </ul>
                             <ul>
-                                <li>Partner</li>
-                                <li>careers</li>
-                                <li>support</li>
-                                <li>Contact us</li>
+                                <li><a href="#">Partner</a></li>
+                                <li><a href="#">careers</a></li>
+                                <li><a href="#">support</a></li>
+                                <li><a href="#">Contact us</a></li>
                             </ul>
                             <ul>
-                                <li>Terms of use</li>
-                                <li>privacy policy</li>
-                                <li>response disclosure</li>
+                                <li><a href="#">Terms of use</a></li>
+                                <li><a href="#">privacy policy</a></li>
+                                <li><a href="#">response disclosure</a></li>
                             </ul>
                         </div>
                     </div>

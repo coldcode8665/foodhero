@@ -11,15 +11,15 @@ let Nav = () => {
             <h3 className={Style.logo}><a href="/">FoodHero</a></h3>
 
             <ul className={Style.menu}>
-              <li><a href="#">How it works</a></li>
+              <li><a href="#howitworks">How it works</a></li>
               <li><a href="/location">locations</a></li>
               <li><a href="#" id="about">About <i className="fa fa-angle-down"></i></a></li>
               <li><a href="#">Suport</a></li>
               <li><a href="#">Partner</a></li>
-              <li><a href="#" className={Style.downloadbtn} id="dbtn">Download</a></li>
+              {/* <li><a href="#" className={Style.downloadbtn} id="dbtn">Download</a></li> */}
             </ul>
             <div className={Style.hidden}>
-              <a href="#" className={Style.downloadbtn} id="dbtn">Download</a>
+              {/* <a href="#" className={Style.downloadbtn} id="dbtn">Download</a> */}
               <i class="fa fa-bars" id="dropdownBtn"></i>
             </div>
             
@@ -31,7 +31,7 @@ let Nav = () => {
             </ul>
 
             <ul className={Style.dropdownHidden} id="dropdownHidden">
-              <li><a href="#">How it works</a></li>
+              <li><a href="#howitworks">How it works</a></li>
               <li><a href="/location">locations</a></li>
               <li id="aboutHid"><a href="#">About <i className="fa fa-angle-down"></i></a></li>
               <li id="aboutHidden" className={Style.aboutHidden}>

@@ -14,7 +14,7 @@ let Showcase = () => {
                         Save Money, fight against food wastage and help save our planet.
                     </h1>
                     <p className={Style.showcaseSubText}>
-                        Great savings on groceries and food items that are nearing their before date at stores across nigeria
+                        Great savings on groceries and food items that are nearing their before date at stores across Nigeria
                     </p>
                     <ul className={Style.showcaseDevice}>
                         <li><a href="#"><Image src="/icons/ios.svg" width="120" height="120" className={Style.android}></Image></a></li>

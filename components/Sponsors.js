@@ -26,7 +26,7 @@ let Sponsors = () => {
                         <p>Are you a grocery chain that wants to work with FoodHero?</p>
                         <a href="#" className={Style.btn} id="dbtn">Learn more</a>
                     </div>
-                    <p className={Style.workText}>How it works</p>
+                    <p className={Style.workText} id="howitworks">How it works</p>
 
                     {/* how it works content */}
                     <div className={Style.workCard}>
