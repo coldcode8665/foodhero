@@ -14,7 +14,7 @@ let Nav = () => {
               <li><a href="#howitworks">How it works</a></li>
               <li><a href="/location">locations</a></li>
               <li><a href="#" id="about">About <i className="fa fa-angle-down"></i></a></li>
-              <li><a href="#">Suport</a></li>
+              <li><a href="#">Support</a></li>
               <li><a href="#">Partner</a></li>
               {/* <li><a href="#" className={Style.downloadbtn} id="dbtn">Download</a></li> */}
             </ul>

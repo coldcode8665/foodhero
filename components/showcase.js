@@ -11,7 +11,7 @@ let Showcase = () => {
             <div className="container">
                 <div className={Style.showcaseContainer}>
                     <h1 className={Style.showcaseText} id="showcaseText">
-                        Save Money, fight against food wastage and help save our planet.
+                        Save money, fight against food wastage and help save our planet.
                     </h1>
                     <p className={Style.showcaseSubText}>
                         Great savings on groceries and food items that are nearing their before date at stores across Nigeria
